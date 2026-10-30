@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga & Pilates Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Nav Component -->
+    <header class="site-header">
+        <section class="logo">
+            <h1>AURA <span>Yoga & Pilates</span></h1>
+        </section>
+        
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="#practices">Practices</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#prices">Prices</a></li>
+                <li><a href="#about">About the Studio</a></li>
+            </ul>
+            <button class="burger-menu" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section Component -->
+        <section class="hero-section">
+            <h2>Find Inner Balance and Strength</h2>
+        </section>
+
+
+        <!-- Feedback Form Component -->
+        <section class="feedback-section">
+            <form class="feedback-form">
+                <input type="text" name="fullname" placeholder="Full name" required>
+                <input type="tel" name="phone" placeholder="Phone" required>
+
+                <fieldset class="level-selector">
+                    <label><input type="radio" name="level" value="beginner" checked> Beginner</label>
+                    <label><input type="radio" name="level" value="intermediate"> Intermediate</label>
+                    <label><input type="radio" name="level" value="advanced"> Advanced</label>
+                </fieldset>
+
+                <fieldset class="time-selector">
+                    <legend>TIME</legend>
+                    <label><input type="radio" name="time" value="morning" checked> Morning</label>
+                    <label><input type="radio" name="time" value="evening"> Evening</label>
+                </fieldset>
+
+                <button type="submit" class="cta-button">Sign Up for a Free Lesson</button>
+            </form>
+        </section>
+    </main>
+	
+	 <!-- Grid Section Component -->
+        <section id="practices" class="grid-section">
+            <article class="card">
+                <h3>Hatha</h3>
+                <p>Difficulty level: Beginner</p>
+                <p>Session timing: 60 min</p>
+            </article>
+
+            <article class="card">
+                <h3>Hot Yoga</h3>
+                <p>Difficulty level: Intermediate</p>
+                <p>Session timing: 75 min</p>
+            </article>
+
+            <article class="card">
+                <h3>Pilates</h3>
+                <p>Difficulty level: All levels</p>
+                <p>Session timing: 50 min</p>
+            </article>
+        </section>
+
+    <!-- Footer Component -->
+    <footer class="site-footer">
+        <section class="footer-content">
+            <address class="location">
+                <p>Location: Studio Address</p>
+            </address>
+            <section class="regulations">
+                <a href="#">Attendance Regulations</a>
+            </section>
+            <section class="theme-switcher">
+                <button id="theme-toggle">Light / Dark</button>
+            </section>
+        </section>
+    </footer>
+
+</body>
+</html>
